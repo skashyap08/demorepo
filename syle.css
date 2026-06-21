@@ -184,3 +184,6 @@ border-radius:20px;
 backdrop-filter:blur(10px);
 transition:.4s;
 }
+.skill-card:hover{
+transform:translateY(-10px);
+}
