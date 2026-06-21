@@ -22,3 +22,15 @@ left:-100px;
 opacity:.3;
 z-index:-1;
 }
+body::after{
+content:"";
+position:fixed;
+width:500px;
+height:500px;
+background:#7c3aed;
+filter:blur(200px);
+bottom:-100px;
+right:-100px;
+opacity:.3;
+z-index:-1;
+}
