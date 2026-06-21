@@ -10,3 +10,15 @@ background:#0f172a;
 color:white;
 overflow-x:hidden;
 }
+body::before{
+content:"";
+position:fixed;
+width:600px;
+height:600px;
+background:#38bdf8;
+filter:blur(200px);
+top:-200px;
+left:-100px;
+opacity:.3;
+z-index:-1;
+}
