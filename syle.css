@@ -187,3 +187,8 @@ transition:.4s;
 .skill-card:hover{
 transform:translateY(-10px);
 }
+.skill-card i{
+font-size:4rem;
+color:#38bdf8;
+margin-bottom:20px;
+}
