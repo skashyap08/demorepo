@@ -72,3 +72,6 @@ transition:.3s;
 .nav-links a:hover{
 color:#38bdf8;
 }
+.menu-btn{
+display:none;
+}
