@@ -156,3 +156,18 @@ grid-template-columns:1fr 1fr;
 gap:50px;
 align-items:center;
 }
+.about-img img{
+width:100%;
+border-radius:20px;
+}
+
+.about-info{
+display:flex;
+gap:40px;
+margin-top:30px;
+}
+
+.about-info h4{
+font-size:2rem;
+color:#38bdf8;
+}
