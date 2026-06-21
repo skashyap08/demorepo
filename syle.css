@@ -248,3 +248,22 @@ text-align:center;
 .hero h1{
 font-size:3rem;
 }
+.hero-image img{
+width:280px;
+height:280px;
+}
+
+.about-container{
+grid-template-columns:1fr;
+}
+
+.nav-links{
+display:none;
+}
+
+.menu-btn{
+display:block;
+font-size:1.5rem;
+cursor:pointer;
+}
+}
