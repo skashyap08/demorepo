@@ -82,3 +82,46 @@ align-items:center;
 justify-content:space-between;
 gap:60px;
 }
+.hero-content{
+max-width:600px;
+}
+
+.hero h1{
+font-size:5rem;
+}
+
+.hero h2{
+font-size:2rem;
+color:#38bdf8;
+margin:10px 0;
+}
+
+.hero p{
+margin:20px 0;
+line-height:1.8;
+}
+
+.hero-btns{
+display:flex;
+gap:20px;
+}
+
+.btn{
+padding:12px 30px;
+border:none;
+background:#38bdf8;
+color:white;
+text-decoration:none;
+border-radius:30px;
+cursor:pointer;
+transition:.4s;
+}
+
+.btn:hover{
+transform:translateY(-5px);
+}
+
+.btn-outline{
+background:transparent;
+border:2px solid #38bdf8;
+}
