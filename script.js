@@ -1,32 +1,33 @@
-const words = [
+const texts = [
 "Frontend Developer",
-"UI/UX Designer",
-"Web Developer",
+"Web Designer",
+"React Developer",
 "Freelancer"
 ];
 
+let count = 0;
 let index = 0;
-let charIndex = 0;
-let currentWord = "";
-let currentChar = "";
+let currentText = "";
+let letter = "";
 
-function type() {
+(function type(){
 
-if(index >= words.length){
+if(count === texts.length){
+count = 0;
+}
+
+currentText = texts[count];
+letter = currentText.slice(0, ++index);
+
+document.querySelector(".typing").textContent = letter;
+
+if(letter.length === currentText.length){
+count++;
 index = 0;
+setTimeout(type, 1500);
+}
+else{
+setTimeout(type, 100);
 }
 
-currentWord = words[index];
-currentChar = currentWord.slice(0, ++charIndex);
-
-document.getElementById("typing").textContent = currentChar;
-
-if(currentChar.length === currentWord.length){
-index++;
-charIndex = 0;
-}
-
-setTimeout(type, 200);
-}
-
-type();
+})();
