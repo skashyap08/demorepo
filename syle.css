@@ -192,3 +192,15 @@ font-size:4rem;
 color:#38bdf8;
 margin-bottom:20px;
 }
+.project-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:30px;
+}
+
+.project-card{
+overflow:hidden;
+border-radius:20px;
+background:#1e293b;
+transition:.4s;
+}
