@@ -64,3 +64,8 @@ display:flex;
 list-style:none;
 gap:30px;
 }
+.nav-links a{
+color:white;
+text-decoration:none;
+transition:.3s;
+}
