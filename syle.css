@@ -55,3 +55,7 @@ backdrop-filter:blur(10px);
 background:rgba(255,255,255,.05);
 z-index:1000;
 }
+.logo{
+font-size:1.8rem;
+font-weight:700;
+}
