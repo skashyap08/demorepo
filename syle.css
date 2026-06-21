@@ -5,3 +5,8 @@ box-sizing:border-box;
 font-family:'Poppins',sans-serif;
 scroll-behavior:smooth;
 }
+body{
+background:#0f172a;
+color:white;
+overflow-x:hidden;
+}
