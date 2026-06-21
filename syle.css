@@ -138,3 +138,8 @@ animation:float 3s infinite ease-in-out;
 transform:translateY(-20px);
 }
 }
+.socials{
+margin-top:20px;
+display:flex;
+gap:20px;
+}
